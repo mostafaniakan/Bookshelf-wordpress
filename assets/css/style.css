@@ -1,0 +1,38 @@
+.img-fluid{
+height: 300px;
+}
+.like{
+    transform: scale(1.1);
+    stroke: #6b9bd2;
+    opacity: 1;
+}
+.like .like_active {
+    stroke: #8899a4;
+    fill: red!important;
+    opacity: .7;
+}
+.like svg:hover{
+    cursor: pointer;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.like-book-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis: calc(33.33% - 20px);
+}
+.like-book-body .card {
+    flex-basis: calc(48.33% - 20px);
+}
+.hidden_post_like{
+    display: none!important;
+}
+.copy_link{
+    margin-right: 20px
+}

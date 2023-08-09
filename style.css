@@ -1,0 +1,118 @@
+/*
+Theme Name:  Bookshelf
+Theme URI: https://sample.com
+Description: Bookshelf
+Author: vahid salehi
+Author URI:https://sample.com
+Version: 1.0
+Tags: clean, light, responsive
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@font-face {
+    font-family: "Yekan-bakh";
+    src : url("assets/fonts/Yekan-Bakh-FaNum-04-Regular.woff") format("woff"),
+    url("assets/fonts/Yekan-Bakh-FaNum-05-Medium.woff") format("woff");
+}
+*,body{
+    font-family: "Yekan-bakh";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    text-align: center;
+    margin: 35px 0;
+}
+h2{
+    font-size: 24px;
+    color: #6f86f9;
+}
+.btn-success{
+    background-color: #28bb65;
+    color: #fff;
+    cursor: pointer;
+}
+.alert{
+    padding: 15px 14px;
+    margin-bottom: 10px;
+
+}
+.alert-success{
+    background: #2ed573;
+    color: #fff;
+}
+.alert-danger{
+    background: #ff4757;
+    color: #fff;
+}
+section{
+    background: #fff;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 8px 0 #d7d5d5;
+    margin:0 auto;
+    border-radius: 10px;
+}
+label{
+    font-size: 16px;
+}
+input,button,textarea{
+    width: 100%;
+    border:1px solid #e9e9e9;
+    height: 45px;
+    border-radius: 5px;
+    margin: 13px 0;
+    outline: 0;
+    padding: 0 10px;
+    font-size: 16px;
+}
+textarea{
+    height: 200px;
+}
+.container{
+    margin: 20px auto;
+    max-width: 1740px;
+}
+.row{
+    display: flex;
+    justify-content: start;
+
+    flex-flow: row wrap;
+
+}
+.card{
+    padding: 20px;
+    /*margin-bottom: 20px;*/
+    width: 400px;
+    /*height: 280px;*/
+    margin: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.img-fluid{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.card p{
+    font-size: 18px;
+    line-height: 2;
+}
+.test{
+    background-color: white;
+}

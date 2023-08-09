@@ -1,0 +1,11 @@
+Brief description of the plugin:
+In this format, features such as creating posts, user registration, user login, creating posts,
+liking posts, adding liked posts to the user panel, and changing posts created by the user himself.
+And also post creation via API
+
+Use Api instructions:
+Before doing anything, you must first enter the body (email and password) you registered with and the values you receive include :
+(title_post,author_post,publication_year,excerpt,genre_post,file_img) It must be entered;
+
+
+
